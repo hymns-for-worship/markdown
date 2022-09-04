@@ -1,0 +1,19 @@
+{
+  "name": "markdown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node --experimental-fetch .scripts/update.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hymns-for-worship/markdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hymns-for-worship/markdown/issues"
+  },
+  "homepage": "https://github.com/hymns-for-worship/markdown#readme"
+}
