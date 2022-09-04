@@ -57,14 +57,11 @@ async function main() {
     for (const scripture of hymnScriptures.filter(
       (s) => s.hymn_id === hymn.id
     )) {
-      sb.push(`### ${scripture.reference}`);
-      sb.push("");
       const ref = scripture.reference || "";
       const prefix = "https://www.biblegateway.com/passage/?search=";
       // Encode the reference for the URL
       const encoded = encodeURIComponent(ref);
       sb.push(`- [${ref}](${prefix}${encoded})`);
-      sb.push("");
     }
     sb.push("");
 
